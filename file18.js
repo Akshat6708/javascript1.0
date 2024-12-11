@@ -13,8 +13,11 @@ let person={name:'akshat patidar',
 }
 // console.log(person);
 // console.log(person.hobbies);
+   console.log(person["name"]);
+   console.log(person["age"]);
 
 //   how to add key value pair
 
-person.geander="male";
+// person.geander="male";
+person["gender"]="male";
 console.log(person);
