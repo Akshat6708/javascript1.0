@@ -10,18 +10,27 @@
 // console.log(isEven);
 
 
-
 //   function
 //   input: array, target(number)
 //  output: index of target if target present in array
 
-let arraytarget=(array,target)=>{
-   for(let i=0;i<array.length;i++){
-    if(array[i]===target){
-       return i;
-    }
-    }
-    return -1;
+// let arraytarget=(array,target)=>{
+//    for(let i=0;i<array.length;i++){
+//     if(array[i]===target){
+//        return i;
+//     }
+//     }
+//     return -1;
+//    }
+// const arrays=[1,3,5,6,7,8,9,10];
+// console.log (arraytarget(arrays,4));
+
+
+let number=()=>{
+   for(let i=1;i<=10;i++){
+      console.log(i);
    }
-const arrays=[1,3,5,6,7,8,9,10];
-console.log (arraytarget(arrays,4));
+ 
+}
+(number());
+
