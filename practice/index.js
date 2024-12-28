@@ -35,17 +35,20 @@
 // (number());
 function createUser(firstname,lastname,email,id){
 const userMethod={
-    about:
+    about:function(){
+      console.log(`person name is ${this.firstname} and lastname is ${this.lastname}`)
+    }
 }
 const user={}
+console.log("hello akshat patidar")
 user.firstname=firstname;
 user.lastname=lastname;
 user.email=email;
 user.id=id;
+user.about=userMethod.about;
+console.log("hello akshat patidar")
 
 return user;
 }
 const user1=createUser("akshat","patidar","akshatpatidar@gmail.com",123);
-console.log(user1)
-
-
+console.log(user1.user);

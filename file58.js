@@ -1,4 +1,4 @@
-function createUser(firstname,lastnmae,age,adderss,email){
+function createUser(firstname,lastname,age,adderss,email){
     const usermethod={
         about:function(){
             return (`person name is ${this.firstname} and person age is ${this.age}`)
@@ -9,7 +9,7 @@ Is18:function(){
     }
     const user={}
     user.firstname=firstname;
-    user.lastnmae=lastnmae;
+    user.lastname=lastname;
     user.age=age;
     user.adderss=adderss;
     user.email=email;
@@ -25,4 +25,5 @@ const user3=createUser("hariom","patidar",21,"bhopal","akshatpatidar6708@gmail.c
 console.log(user1.about());
 console.log(user2.about());
 console.log(user3.about());
+console.log(user1.user);
     

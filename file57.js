@@ -18,10 +18,10 @@
 // add key value pair
 //object ko return kerega
 
-function createUser(firstname,lastnmae,age,adderss,email){
+function createUser(firstname,lastname,age,adderss,email){
     const user={}
     user.firstname=firstname;
-    user.lastnmae=lastnmae;
+    user.lastname=lastname;
     user.age=age;
     user.adderss=adderss;
     user.email=email;
