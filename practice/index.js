@@ -33,5 +33,19 @@
  
 // }
 // (number());
+function createUser(firstname,lastname,email,id){
+const userMethod={
+    about:
+}
+const user={}
+user.firstname=firstname;
+user.lastname=lastname;
+user.email=email;
+user.id=id;
+
+return user;
+}
+const user1=createUser("akshat","patidar","akshatpatidar@gmail.com",123);
+console.log(user1)
 
 
