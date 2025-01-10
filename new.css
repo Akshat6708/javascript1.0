@@ -1,0 +1,26 @@
+*{
+    padding: 2px;
+    margin: 2px;
+    /* box-sizing: border-box; */
+}
+.container{
+    width:1200px;
+    height: 600px;
+    background-color:blueviolet;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 5px;
+    display: flex;
+
+}
+.image{
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+   
+}
+.image img{
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+}
